@@ -1,0 +1,17 @@
+{
+    "name": "Weather Forecast",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "index.html",
+        "default_logo": "icon.png"
+    },
+    "icons":{
+        "128": "icon.png"
+    },
+    "permissions": [
+        "activeTab",
+        "storage",
+        "geolocation"
+    ]
+}
